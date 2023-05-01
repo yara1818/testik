@@ -1,0 +1,23 @@
+.modal__register {
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: $back-color;
+    width: 40rem;
+    &-input {
+        margin-top: 1rem;
+    }
+    form {
+        input {
+            margin: 0 auto;
+            padding: .4rem .6rem;
+            display: block;
+            margin-top: 1rem;
+            width: 50%;
+        }
+    }
+}
