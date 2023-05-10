@@ -1,0 +1,83 @@
+.cards__choice__cards {
+    display: flex;
+    height: 1150px;
+    &__card {
+        cursor: pointer;
+        // margin-right: 10%;
+        margin-right: 3rem;
+        margin-top: 5em;
+        min-width: 25.1rem;
+        width: 25.1rem;
+        text-align: center;
+        background-color: #FFF;
+        border-radius: 2rem;
+        &__header {
+            position: relative;
+            &-item {
+                margin-top: 1.6rem;
+                position: relative;
+            }
+            &-title {
+                position: absolute;
+                top: 12%;
+                left: 10%;
+                font-family: Rubik;
+                font-size: 1.4rem;
+                font-weight: 400;   
+                background: $back-color;
+                padding: .4rem 3.5rem;
+                border-radius: 1rem;
+            }
+        }
+        &__body {
+            position: relative;
+            &-title {
+                text-decoration: none;
+                margin-top: .5rem;
+                font-family: Rubik;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.9rem;            
+            }
+            &-subtitle {
+                text-decoration: none;
+                font-family: Rubik;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.9rem;
+            }
+            &-descr {
+                text-decoration: none;
+                padding: 1.5rem 1rem 0rem 1rem;
+                text-align: left;
+                font-family: Rubik;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.9rem;            
+            }
+            hr {
+                display: block;
+                margin-top: 3rem;
+                height: .2rem;
+                width: 23.1rem;
+            }
+        }
+        &__footer {
+            display: flex;
+            position: relative;
+            padding-top: 1rem;
+            padding-bottom: .5rem;
+            &-number {
+                position: absolute;
+                right: 5%;
+                bottom: 20%;
+                font-family: Rubik;
+                font-size: 2rem;
+                font-weight: 400;            
+            }
+            &__stars {
+                padding-right: 8.5rem;
+            }
+        }
+    }
+}

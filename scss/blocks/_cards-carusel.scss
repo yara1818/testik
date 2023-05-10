@@ -1,0 +1,49 @@
+.cards__carusel {
+    margin: 0 auto;
+    width: 75%;
+    &-carusel {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+    }
+    &-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        &_left {
+            left: 0;
+        }
+        &_right {
+            right: 0;
+        }
+    }
+    &-title {
+        display: block;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 2.9rem;
+        text-align: center;
+        margin-bottom: 2.1rem;
+    }
+    &__item {
+        
+        position: relative;
+        img {
+            cursor: pointer;
+            width: 219px;
+        }
+        &-title {
+            // margin: 1rem;
+            position: absolute;
+            background-color: $back-color;
+            padding: .2rem 2.6rem;
+            border-radius: 1rem;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 2.4rem;    
+            top: 5%;
+            left: 22%;      
+            }
+        }
+}
