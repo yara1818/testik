@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@import "base/variables";
+@import "blocks/nav";
+@import "blocks/dropdown";
+@import "blocks/header";
+@import "blocks/input-modal";
+@import "blocks/register-modal";
+@import "blocks/cards";
+@import "blocks/cards-carusel";
+@import "blocks/arrows-carusel";
+@import "blocks/right-cards";
+@import "blocks/cards__choice";
+@import "blocks/cards__choice__nav";
+@import "blocks/card__choice";
+@import "blocks/footer";
+@import "blocks/question";
+@import "blocks/questions__form";
+@import "blocks/media";
+html {
+    color: $color;
+    font-size: 10px;
+}
+
+.row {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0rem 16rem 0rem 18.5rem
+}

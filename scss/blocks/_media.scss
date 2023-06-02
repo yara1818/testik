@@ -1,0 +1,23 @@
+@media (max-width: 1920px) {
+    .nav__logo {
+        left: 0;
+    }
+    .slick-slider .slick-track, .slick-slider .slick-list {
+        width: 100%;
+    }
+    .cards__carusel__item-title {
+        left: 24%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .cards__carusel__item-title {
+        left: 22%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .cards__carusel__item-title {
+        left: 18%;
+    }
+}

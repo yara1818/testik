@@ -1,0 +1,31 @@
+.cards__right {
+    min-width: 26.1rem;
+    &__cards {
+        flex-direction: column-reverse;
+        &__card {
+            border-radius: 1rem;
+            max-width: 23rem;
+            position: relative;
+            &-title {
+                background-color: $back-color;
+                padding: .3rem 2rem;
+                border-radius: 1rem;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                font-family: Rubik;
+                font-size: 1.4rem;
+                font-weight: 400;
+                text-align: center;                
+            }
+            &-subtitle {
+                padding-top: 1.5em; 
+                text-align: center;
+                font-family: Rubik;
+                font-size: 1.6rem;
+                font-weight: 400;
+                
+            }
+        }
+    }
+}

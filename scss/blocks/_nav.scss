@@ -1,0 +1,67 @@
+.nav {
+    width: 100%;
+    padding-top: 1.3rem;
+    height: 10rem;
+    display: flex;
+    background-color: $back-color;
+    &__links {
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+    ul {
+        padding-top: 3em;
+    }
+    &__links {
+        display: flex;
+        position: absolute;
+        right: 5%;
+        li {
+            list-style-type: none;
+            a {
+                color: $color;
+            }
+        }
+        &-link {
+            margin-right: 3.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2.4rem;
+        }
+        &-img {
+            cursor: pointer;
+        }
+        &-dropdown {
+            margin-right: .3rem;
+            &-img {
+                cursor: pointer;
+                height: 3.5rem;
+                padding-top: 0.8rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+    &__logo {
+        position: absolute;
+        left: 5%;
+        flex-direction: column;
+        // padding-right: 10rem;
+        &-img {
+            left: 0rem;
+            top: 50%;
+            transform: translateY(-30%);
+            position: absolute;
+        }
+        &-title {
+            margin-left: 14rem;
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 4.9rem;
+        }
+        &-subtitle {
+            margin-left: 14.2rem;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 2.4rem;
+        }
+    }
+}
